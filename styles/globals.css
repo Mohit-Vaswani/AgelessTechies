@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: white;
+    background: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    align-items: center;
+}
+
+.communityBtn{
+    padding: 1rem;
+    border-radius: 50px;
+    background: transparent;
+    border: 2px solid #5865F2;
+    color: #5865F2;
+    transition: all 0.3s;
+}
+
+.communityBtn:hover{
+    background: #5865F2;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li{
+    list-style: none;
+    transition: all 0.5s;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.textHeader{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 4rem;
+    align-items: center;
+}
+
+.heading{
+    width: 40%;
+}
+
+.heading h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.heading h1:first-child{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.cta{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cta p{
+    font-size: 1.1rem;
+}
+
+.ctaBtn{
+    padding: 1rem;
+    border-radius: 50px;
+    border: 2px solid #5865F2;
+    background-color: #5865F2;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.ctaBtn:hover{
+    padding: 1rem;
+    border-radius: 50px;
+    background: transparent;
+    border: 2px solid #5865F2;
+    color: #5865F2;
+}
+
+.specialText{
+    border-bottom: 5px solid #5865F2;
+}
