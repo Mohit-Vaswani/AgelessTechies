@@ -1,22 +1,22 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     color: white;
     background: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 2rem 4rem;
     align-items: center;
 }
 
-.communityBtn{
+.communityBtn {
     padding: 1rem;
     border-radius: 50px;
     background: transparent;
@@ -25,61 +25,61 @@ nav{
     transition: all 0.3s;
 }
 
-.communityBtn:hover{
+.communityBtn:hover {
     background: #5865F2;
     color: white;
     cursor: pointer;
 }
 
-nav ul{
+nav ul {
     display: flex;
     gap: 2rem;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     transition: all 0.5s;
     border-bottom: 2px solid transparent;
 }
 
-nav ul li:hover{
+nav ul li:hover {
     border-bottom: 2px solid white;
     cursor: pointer;
 }
 
-.textHeader{
+.textHeader {
     display: flex;
     justify-content: center;
     padding: 2rem 4rem;
     align-items: center;
 }
 
-.heading{
+.heading {
     width: 40%;
 }
 
-.heading h1{
+.heading h1 {
     font-size: 2.5rem;
     font-weight: 300;
 }
 
-.heading h1:first-child{
+.heading h1:first-child {
     font-size: 2.5rem;
     font-weight: 600;
 }
 
-.cta{
+.cta {
     width: 60%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.cta p{
+.cta p {
     font-size: 1.1rem;
 }
 
-.ctaBtn{
+.ctaBtn {
     padding: 1rem;
     border-radius: 50px;
     border: 2px solid #5865F2;
@@ -89,7 +89,7 @@ nav ul li:hover{
     transition: all 0.3s;
 }
 
-.ctaBtn:hover{
+.ctaBtn:hover {
     padding: 1rem;
     border-radius: 50px;
     background: transparent;
@@ -97,6 +97,77 @@ nav ul li:hover{
     color: #5865F2;
 }
 
-.specialText{
+.specialText {
     border-bottom: 5px solid #5865F2;
+}
+
+.imageHeader {
+    display: flex;
+    width: 100%;
+    align-items: end;
+}
+
+.roundedBox {
+    width: 25%;
+    position: relative;
+    border-radius: 50% 50% 0% 0%;
+}
+
+.roundedBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+}
+
+.roundedBox .personBox {
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 3px #515151;
+}
+
+.personBox:first-child {
+    top: 0rem;
+    left: 3rem;
+}
+
+.personBox:nth-child(2) {
+    top: 0rem;
+    left: 3rem;
+}
+
+.personBox:nth-child(3) {
+    top: 0rem;
+    left: 3rem;
+}
+
+.personBox:last-child {
+    top: -2rem;
+    left: 0rem;
+}
+
+
+.roundedBox:first-child {
+    background: #515151;
+    background: linear-gradient(180deg, #515151, #ff7c7c);
+    height: 360px;
+}
+
+.roundedBox:nth-child(2) {
+    background: #515151;
+    background: linear-gradient(180deg, #515151, #85DBAB);
+    height: 320px;
+}
+
+.roundedBox:nth-child(3) {
+    background: #515151;
+    background: linear-gradient(180deg, #515151, #FBFBFB);
+    height: 350px;
+}
+
+.roundedBox:last-child {
+    background: #515151;
+    background: linear-gradient(180deg, #515151, #7c87ff);
+    height: 310px;
 }
